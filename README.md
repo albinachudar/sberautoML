@@ -17,10 +17,7 @@
 ```
 project/
 ├── data/                          # Исходные данные
-│   ├── ga_sessions.pkl           # Данные о сессиях
-│   └── ga_hits-002.parquet       # Данные о событиях
 ├── models/                        # Обученные модели
-│   └── conversion_model_*.pkl    # Сохраненные модели
 ├── modules/                       # Исходный код
 │   ├── main.py                   # FastAPI приложение
 │   ├── main_notebook.ipynb       # Исследовательский анализ
